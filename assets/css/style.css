@@ -1,0 +1,56 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.topHeader {
+    background-image: url('../images/header.jpeg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.main_img1 {
+    width: 100%;
+    height: 350px;
+}
+
+.main_img2 {
+    width: 100%;
+    height: 350px;
+}
+footer {
+    background-color: #38352b;
+    height: 120px;
+    color: #fff;
+}
+
+.title {
+    font-size: 6vw;
+    color: #fff;
+}
+
+.subtitle {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.contentHeader {
+    width:100%;
+    position: absolute;
+    margin-top: 15%;
+}
+
+@media (max-width: 760px) {
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .subtitle {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .contentHeader {
+        position: absolute;
+        margin-top: 50%;
+    }
+}
